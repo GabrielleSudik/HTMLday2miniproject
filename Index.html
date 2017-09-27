@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html>
+
+<!--In-class project:
+title
+three paragraphs with headings
+1 list
+2 links
+2 images
+1 quote-->
+
+<head>
+    <title>The Three Grand Tours</title>
+	<meta charset="utf-8" />
+    <link href="StyleSheet.css" rel="stylesheet" /> <!--like images, this can be dropped here-->
+
+</head>
+<body>
+
+    <!--<title>The Three Grand Tours</title>-->
+
+    <h1>Giro d'Italia</h1>
+
+    <p class= "firstParagraph"> <!--the class = thing will define this for the CSS-->
+        The Giro d'Italia is an annual multiple-stage bicycle race primarily held in Italy,
+         while also occasionally passing through nearby countries.[3] The first race
+         was organized in 1909 to increase sales of the newspaper La Gazzetta dello Sport;
+         however it is currently run by RCS Sport.
+    </p>
+
+    <h1 class="secondHeader">Le Tour de France</h1>
+
+    <p>
+        The Tour de France is an annual multiple stage bicycle race primarily
+         held in France,[1] while also occasionally making passes through nearby
+         countries. Like the other Grand Tours (the Giro d'Italia and the Vuelta a España),
+         it consists of 21 stages over a little more than 3 weeks.
+    </p>
+
+    <h1>Vuelta a Espana</h1>
+
+    <p>
+        The Vuelta a España is an annual multi-stage bicycle race primarily held in
+         Spain, while also occasionally making passes through nearby countries.
+         Inspired by the success of the Giro d'Italia and the Tour de France, 
+        the race was first organized in 1935.
+    </p>
+
+    <h2>Riders With Most Tour Stage Wins</h2>
+
+    <ul>
+        <li>Eddie Merckx</li>
+        <li>Mark Cavendish</li>
+        <li>Bernard Hinault</li>
+    </ul>
+
+    <p>Greg LeMond once said: <q>It never gets easier, you just go faster.</q>
+
+    </p>
+
+    <!--<div class="cssPics">--> <!--you created this div to apply the css class everything inside-->
+        <img src="Images/Cav.jpg" alt="Cav's face gets run over'" class="cssPics" />
+        <figcaption>Cav's face gets run over.</figcaption><br />
+        <img src="Images/1st Winner.jpg" alt="Le Tour's first winner'" class="cssPics" />
+        <figcaption>Le Tour's First Winner</figcaption><br />
+    <!--</div>--> <!--BUT... see css page for more into-->
+    <!--bah, in the end it didn't work because it messed up other formatting-->
+    <!--putting the class into each line worked, tho-->
+
+    <a href="http://www.lavuelta.com/">La Vuelta</a><br/>
+    <a href="http://www.lavuelta.com/">Giro d'Italia</a><br/>
+
+</body>
+</html>
+
+<!--3 ways to use CSS:
+
+1.in-line (not best pratice, don't do it)
+ -- it's where you put CSS instructions in html code.
+It's inefficient because you have to write code all over the place.
+
+2. in "head" of html code
+It's more efficient than (1) because it applies to more than one thing
+BUT it has to be replicated in every html page.
+
+3. make a reference in "head" to an external CSS
+    <link href="StyleSheet1.css" rel="stylesheet"/>-->
+    <!--named after whatever stylesheet you created in your project 
+    (create same way you create folders for images, etc, but select Style Sheet)-->

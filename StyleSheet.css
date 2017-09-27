@@ -1,0 +1,53 @@
+﻿body {
+    /*this body just popped up*/
+    /*everything else is added by you*/
+
+    /*the starting thing is the "selector"
+        it identifies what you will tinker with*/
+
+} 
+
+p{
+    color:darkseagreen; /*use intellisense a lot!*/
+}
+
+.firstParagraph{
+    font-family:'Georgia'; /*keep using intellisense!*/
+        /*fonts must be in single quotes*/
+        font-size: 25px;
+        color:palevioletred;
+}
+
+.secondHeader{
+    font-family:'Courier New';
+    font-size:30px;
+}
+
+/*use just the element as selector when the style will apply to everything of that element*/
+/* like p for all paragraphs*/
+
+/*use the .thisWay when you identify specific things in the html for treatment*/
+
+/*styles created with .thisWay override general element styles*/
+
+.cssPics, img{
+    height:400px;
+    width:600px;
+    /*normally, the .cssPics would have affected everything in the corresponding div*/
+    /*but because the div also had captions, you need to specify that this class*/
+    /*applies only to the IMAGES in the div*/
+}
+
+.cssPics, figcaption{
+    color:coral;
+    /*see how you specified what happens to the captions within the div?*/
+    /*gj!*/
+}
+
+h1, h2{
+    text-align:center;
+}
+
+/*WCCI doesn't cover CSS in-depth, there are just way too many ways to tweak stuff*/
+/*BUT intellisense is really good, and websites for this are easy to read/learn*/
+/*also, so much of front-end design is visual, looking and tinkering with the code.*/
